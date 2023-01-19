@@ -1,0 +1,67 @@
+.honors {
+    padding: 5rem 0;
+}
+
+.honors-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.honors__picture {
+    flex-basis: 45%;
+}
+
+.honors__picture img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.honors__content {
+    padding: 3rem;
+    flex-basis: 55%;
+}
+
+.honors__title {
+    font-size: 3.5rem;
+}
+
+.honors__caption {
+    font-size: 1.7rem;
+}
+
+.honors__list {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(204px, 1fr));
+    gap: 4rem 2rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .honors-wrapper {
+        flex-direction: column;
+    }
+
+    .honors__picture {
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .honors__content {
+        flex-basis: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .honors__picture img {
+        max-height: 50rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .honors__title {
+        font-size: 3rem;
+        line-height: 1.3;
+    }
+}

@@ -1,0 +1,42 @@
+.service__item {
+    text-align: center;
+    border: 0.1rem solid #ebebeb;
+    padding: 5rem 2rem;
+    cursor: default;
+    transition: 0.3s;
+}
+
+.service__item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0.5rem 0.5rem 2rem #ebebeb;
+}
+
+.service__item__icon {
+    display: block;
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.service__item__icon svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: var(--dark-color);
+}
+
+.service__item__title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.service__item__description {
+    font-size: 1.4rem;
+    max-width: 30rem;
+    margin: auto;
+}

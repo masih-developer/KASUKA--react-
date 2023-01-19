@@ -1,0 +1,31 @@
+.honors__item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.honors__item-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.honors__item-top svg {
+    width: 3.5rem;
+    height: 3.5rem;
+    fill: var(--primary-color);
+}
+
+.honors__item__count {
+    font-size: 3.5rem;
+    margin-right: 1rem;
+    line-height: 0;
+    color: var(--dark-color);
+}
+
+.honors__item__description {
+    margin-top: 1rem;
+    text-indent: 1rem;
+}

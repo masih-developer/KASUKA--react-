@@ -1,0 +1,15 @@
+.services {
+    padding: 5rem 0;
+}
+
+.services-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(308px, 1fr));
+    gap: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .services-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+    }
+}
