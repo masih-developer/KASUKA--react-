@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Header from "./Header/Header";
 import AboutUs from "./AboutUs/AboutUs";
 import Brands from "./Brands/Brands";
