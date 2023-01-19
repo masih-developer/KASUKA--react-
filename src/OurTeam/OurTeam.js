@@ -14,10 +14,18 @@ export default function OurTeam() {
                     <h2 className="section-title__name">تیم ما را بررسی کنید</h2>
                 </div>
                 <div className="ourteam-wrapper">
-                    <TeamPerson />
-                    <TeamPerson />
-                    <TeamPerson />
-                    <TeamPerson />
+                    <TeamPerson
+                        src="./images/team/team-1.jpg"
+                        name="والتر وایت"
+                        job="مدیر ارشد اجرایی"
+                    />
+                    <TeamPerson
+                        src="./images/team/team-2.jpg"
+                        name="سارا جونسون"
+                        job="مدیر تولید"
+                    />
+                    <TeamPerson src="./images/team/team-3.jpg" name="ویلیام اندرسون" job="CTO" />
+                    <TeamPerson src="./images/team/team-4.jpg" name="آماندا جپسون" job="حسابدار" />
                 </div>
             </div>
         </section>

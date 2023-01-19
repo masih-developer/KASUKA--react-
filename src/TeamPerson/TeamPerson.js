@@ -1,11 +1,11 @@
 import React from "react";
 import "./TeamPerson.css";
 
-export default function TeamPerson() {
+export default function TeamPerson(props) {
     return (
         <div className="ourteam-item">
             <div className="ourteam-item__img-wrapper">
-                <img src="./images/team/team-1.jpg" alt="" className="ourteam-item__img" />
+                <img src={props.src} alt="" className="ourteam-item__img" />
                 <div className="ourteam-item__overlay">
                     <a href="#" className="ourteam-item__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -30,8 +30,8 @@ export default function TeamPerson() {
                 </div>
             </div>
             <div className="ourteam-item__content">
-                <h4 className="ourteam-item__name">والتر وایت</h4>
-                <p className="ourteam-item__job">مدیر ارشد اجرایی</p>
+                <h4 className="ourteam-item__name">{props.name}</h4>
+                <p className="ourteam-item__job">{props.job}</p>
             </div>
         </div>
     );

@@ -12,11 +12,11 @@ export default function Home() {
                 </h1>
                 <h2 className="home__caption">ما تیمی از بازاریابان با استعداد دیجیتال هستیم</h2>
                 <div className="home-boxes-wrapper">
-                    <HomeBox />
-                    <HomeBox />
-                    <HomeBox />
-                    <HomeBox />
-                    <HomeBox />
+                    <HomeBox caption="متن نمایشی" />
+                    <HomeBox caption="نمودار کیفی" />
+                    <HomeBox caption="نمونه کارها" />
+                    <HomeBox caption="عملکرد ها پایانی" />
+                    <HomeBox caption="اطلاعات ذخیره شده" />
                 </div>
             </div>
         </section>

@@ -24,10 +24,22 @@ export default function Honors() {
                             آن زمان می دهم تا مانند یک درد و درد بزرگ در آن فرو برود. درد مقصر است
                         </p>
                         <ul className="honors__list">
-                            <HonorsItem />
-                            <HonorsItem />
-                            <HonorsItem />
-                            <HonorsItem />
+                            <HonorsItem
+                                count="65"
+                                description="مشتریان خوشحال خوشحالیم که از معمار چیزی دریافت کنیم."
+                            />
+                            <HonorsItem
+                                count="85"
+                                description="پروژه ها برای بدست آوردن و زمانی که او کل کسانی را که از او تعریف می کنند رد می کند و آنها را حقیر می شمارد"
+                            />
+                            <HonorsItem
+                                count="35"
+                                description="سال ها تجربه یا اجازه دهید به دنبال نوعی مزیت باشد"
+                            />
+                            <HonorsItem
+                                count="20"
+                                description="جوایز درد دردناک تر است در زمانی دیگر که هیچکس او را متهم نمی کند و هیچ وقت او را متهم نمی کند"
+                            />
                         </ul>
                     </div>
                 </div>
