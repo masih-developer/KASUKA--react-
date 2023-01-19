@@ -1,17 +1,12 @@
 import React from "react";
 import "./AboutUs.css";
+import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function AboutUs() {
     return (
         <section className="aboutus">
             <div className="container">
-                <div className="section-title">
-                    <div className="section-title-head">
-                        <p>درباره ما</p>
-                        <span></span>
-                    </div>
-                    <h2 className="section-title__name">درباره ما بیشتر بدانید</h2>
-                </div>
+                <SectionTitle title="درباره ما" caption="درباره ما بیشتر بدانید" />
                 <div className="aboutus-wrapper">
                     <div className="aboutus__content">
                         <h3 className="aboutus__title">شرکت دیجیتال کاسوکا</h3>

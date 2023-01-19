@@ -67,41 +67,6 @@ textarea:focus {
 */
 
 /* 
-  _________________________component styles_________________________
-*/
-
-.section-title {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 5rem;
-}
-
-.section-title-head {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.section-title-head p {
-    padding-left: 1rem;
-    color: var(--dark-text-color);
-}
-
-.section-title-head span {
-    display: block;
-    width: 12rem;
-    height: 0.1rem;
-    background-color: var(--primary-color);
-}
-
-.section-title__name {
-    font-size: 3.5rem;
-    font-weight: 700;
-}
-
-/* 
   _________________________responsive styles_________________________
 */
 

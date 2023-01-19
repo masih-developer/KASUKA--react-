@@ -1,17 +1,12 @@
 import React from "react";
 import "./WorkSample.css";
+import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function WorkSample() {
     return (
         <section className="worksample">
             <div className="container">
-                <div className="section-title">
-                    <div className="section-title-head">
-                        <p>نمونه کار ها</p>
-                        <span></span>
-                    </div>
-                    <h2 className="section-title__name">نمونه کارهای ما را بررسی کنید</h2>
-                </div>
+                <SectionTitle title="نمونه کار ها" caption="نمونه کارهای ما را بررسی کنید" />
                 <ul className="worksample-list">
                     <li className="worksample-list__item worksample-list__item--active">همه</li>
                     <li className="worksample-list__item">برنامه</li>

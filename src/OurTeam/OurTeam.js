@@ -1,18 +1,13 @@
 import React from "react";
 import "./OurTeam.css";
 import TeamPerson from "../TeamPerson/TeamPerson";
+import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function OurTeam() {
     return (
         <section className="ourteam">
             <div className="container">
-                <div className="section-title">
-                    <div className="section-title-head">
-                        <p>تیم</p>
-                        <span></span>
-                    </div>
-                    <h2 className="section-title__name">تیم ما را بررسی کنید</h2>
-                </div>
+                <SectionTitle title="تیم" caption="تیم ما را بررسی کنید" />
                 <div className="ourteam-wrapper">
                     <TeamPerson
                         src="./images/team/team-1.jpg"

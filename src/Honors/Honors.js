@@ -1,18 +1,13 @@
 import React from "react";
 import "./Honors.css";
 import HonorsItem from "../HonorsItem/HonorsItem";
+import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function Honors() {
     return (
         <section className="honors">
             <div className="container">
-                <div className="section-title">
-                    <div className="section-title-head">
-                        <p>دستاورد ها</p>
-                        <span></span>
-                    </div>
-                    <h2 className="section-title__name">دستاورد های ما را مشاهده کنید</h2>
-                </div>
+                <SectionTitle title="دستاورد ها" caption="دستاورد های ما را بررسی کنید" />
                 <div className="honors-wrapper">
                     <div className="honors__picture">
                         <img src="./images/honors-bg.jpg" alt="" />

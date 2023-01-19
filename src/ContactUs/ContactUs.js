@@ -1,17 +1,12 @@
 import React from "react";
 import "./ContactUs.css";
+import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function ContactUs() {
     return (
         <section className="contactus">
             <div className="container">
-                <div className="section-title">
-                    <div className="section-title-head">
-                        <p>تماس با ما</p>
-                        <span></span>
-                    </div>
-                    <h2 className="section-title__name">با ما تماس بگیرید</h2>
-                </div>
+                <SectionTitle title="تماس با ما" caption="با ما تماس بگیرید" />
                 <div className="contactus__map-wrapper">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28781.7650308166!2d-120.9786366523839!3d37.643287102860356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2z2qnYp9mE24zZgdix2YbbjNin2Iwg2KfbjNin2YTYp9iqINmF2KrYrdiv2Ycg2KLZhdix24zaqdin!5e0!3m2!1sfa!2s!4v1674125643474!5m2!1sfa!2s"
