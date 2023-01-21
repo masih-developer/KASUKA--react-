@@ -1,6 +1,6 @@
 import React from "react";
 import "./OurTeam.css";
-import TeamPerson from "../TeamPerson/TeamPerson";
+import TeamPerson from "./TeamPerson";
 import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function OurTeam() {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import HomeBox from "../HomeBox/HomeBox";
+import HomeBox from "./HomeBox";
 export default function Home() {
     return (
         <section className="home">

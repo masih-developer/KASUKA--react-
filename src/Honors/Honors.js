@@ -1,6 +1,6 @@
 import React from "react";
 import "./Honors.css";
-import HonorsItem from "../HonorsItem/HonorsItem";
+import HonorsItem from "./HonorsItem";
 import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function Honors() {

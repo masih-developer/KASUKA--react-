@@ -1,12 +1,10 @@
 import "./Header.css";
 import React from "react";
-import Navbar from "../Navbar/Navbar";
-import Home from "../Home/Home";
+import Navbar from "./Navbar";
 export default function Header() {
     return (
         <header className="header">
             <Navbar />
-            <Home />
         </header>
     );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Feature.css";
-import FeatureItem from "../FeatureItem/FeatureItem";
+import FeatureItem from "./FeatureItem";
 
 export default function Feature() {
     return (

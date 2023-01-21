@@ -1,6 +1,6 @@
 import React from "react";
 import "./Services.css";
-import ServiceItem from "../ServiceItem/ServiceItem";
+import ServiceItem from "./ServiceItem";
 import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function Services() {

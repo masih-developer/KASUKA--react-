@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header/Header";
+import Home from "./Home/Home";
 import AboutUs from "./AboutUs/AboutUs";
 import Brands from "./Brands/Brands";
 import Feature from "./Feature/Feature";
@@ -16,6 +17,7 @@ export default function App() {
     return (
         <>
             <Header />
+            <Home />
             <AboutUs />
             <Brands />
             <Feature />
