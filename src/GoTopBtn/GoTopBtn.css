@@ -1,0 +1,28 @@
+.go-top-btn {
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--primary-color);
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.go-top-btn--active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.go-top-btn svg {
+    width: 1.75rem;
+    height: 1.75rem;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header/Header";
+import GoTopBtn from "./GoTopBtn/GoTopBtn";
 import Home from "./Home/Home";
 import AboutUs from "./AboutUs/AboutUs";
 import Brands from "./Brands/Brands";
@@ -17,6 +18,7 @@ export default function App() {
     return (
         <>
             <Header />
+            <GoTopBtn />
             <Home />
             <AboutUs />
             <Brands />
