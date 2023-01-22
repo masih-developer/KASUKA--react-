@@ -1,7 +1,7 @@
 .newsletter {
     padding: 5rem 0;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("../../public/images/newsletter-bg.jpg");
+        url("../../../public/images/newsletter-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
